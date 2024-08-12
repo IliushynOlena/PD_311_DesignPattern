@@ -104,6 +104,7 @@
            //IToyFactory factory = new WoodenToyFactory();
            IToyFactory factory = new TeddyToyFactory();
            Bear bear =  factory.CreateBear();  
+         
            Cat cat = factory.CreateCat();
 
             bear.Print();
